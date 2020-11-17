@@ -33,7 +33,7 @@ int main()
 		
 		if (c == 27) {	// esc 버튼을 누르면 종료
 			break;
-		} else if (c == ' ') {
+		} else if (c == ' ') {	// space 버튼을 누르면 아래의 코드 실행
 			Mat img_resize, img_float, img_flatten, res;
 
 			resize(img, img_resize, Size(20, 20), 0, 0, INTER_AREA);	// 영상을 (20x20) size 변환하여 img_resize에 저장
